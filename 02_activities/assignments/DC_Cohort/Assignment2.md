@@ -54,7 +54,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+The one that will overwrite is Type 1 and the one that retains changes is Type 2.
 ```
 
 ***
@@ -183,5 +183,13 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+
+Reading the article reveals how deeply human judgment is woven into systems that are often framed as purely computational. What appears to be an automated network of mathematical layers is actually built on top of human labour, subjective decisions, and inherited social structures. The ethical implications become visible once the full chain of human involvement is acknowledged.
+The article emphasizes the labour-intensive collection and labeling of training data. These choices unfold within specific social contexts. When the data depends on contractors working across different countries and conditions, guided by shifting instructions and inconsistent interpretations, the model ends up reflecting these uneven and sometimes contradictory judgments. The ethical challenge arises from the fact that these influences remain invisible in the final outputs, even though they shape them profoundly.
+The article also illustrates how routine engineering practices, cleaning datasets, tuning model architecture, deciding which edge cases to keep or discard, are not neutral technical steps. For example, choosing which misclassifications matter enough to fix or which accents to normalize embeds priorities and worldview directly into the system. What the engineer dismisses as “noise” may represent someone’s dialect, culture, or identity. These small, everyday decisions accumulate into large-scale patterns once deployed, where biases that began as minor human choices become institutionalized by the scale and authority of machine learning.
+Another ethical concern in the article is how quickly experimental models become infrastructural. When neural networks are integrated into tools that determine what content is surfaced, what speech is filtered, or how individuals are categorized, they begin shaping societal norms rather than simply reflecting them. A system trained on data filtered by particular people ends up implicitly defining what types of communication are acceptable or which expressions are recognizable. Those whose patterns were underrepresented or misinterpreted in the training process are more likely to be misclassified or silenced, reinforcing existing forms of marginalization.
+The article also highlights the stark divide between those who build these systems and those who must live within them. Engineers can refine models, debate architectures, or discard entire approaches without consequence, while the model’s outputs influence people who had no participation in the system’s creation. This asymmetry raises ethical questions about consent, accountability, and control. Decisions that seem trivial within a development pipeline may carry significant consequences for individuals evaluated by the final system.
+Ultimately, the article makes clear that the ethical issues surrounding neural networks are not speculative, they stem directly from the human choices, inconsistencies, and social dynamics embedded in every stage of development. Recognizing that these systems are built on imperfect human scaffolding demands a more honest approach to their design: one that confronts the biases, power imbalances, and societal impacts inherent in the work, and aims to build technology that better accounts for the full diversity of those affected by it.
+
+
 ```
